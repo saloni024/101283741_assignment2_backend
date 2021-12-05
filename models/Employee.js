@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const EmployeeSchema = new mongoose.Schema({
-  _id: {
+  id: {
     type: Number,
     required: [true, 'Enter Id!'],
     trim: true,
